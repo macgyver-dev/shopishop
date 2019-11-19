@@ -1,0 +1,80 @@
+/*********************** DEBUG **************************/
+.debug
+{
+    border: 1px solid red;
+}
+
+.debug-green
+{
+    border: 1px solid green;
+}
+
+
+/*********************** MENU BLOCK *****************/
+
+
+.ico-nav:hover
+{
+    transform: scale(1.2,1.2); 
+}
+
+
+.flag-english
+{
+    background-image: url('../img/sprite.png');
+    width:45px;
+    height: 45px;
+    background-position-x: -39px;
+    background-position-y: -33px;        
+}
+
+.flag-english:hover
+{
+    transform: scale(1.2,1.2); 
+}
+    
+
+.flag-french
+{
+    background-image: url('../img/sprite.png');
+    width:45px;
+    height: 45px;
+    background-position-x: -196px;
+    background-position-y: -33px;
+    
+}
+
+.flag-french:hover
+{
+    transform: scale(1.2,1.2); 
+}
+
+
+/*********************** INDEX.HTML BLOCK *****************/
+
+
+
+.product_1:hover
+{
+    transition-duration: 2s;
+    transform: scale(1.2,1.2);
+}
+
+.product_2:hover
+{
+    transition-duration: 2s;
+    transform: translate(0px, 35px);
+}
+
+.product_3:hover
+{
+    transition-duration: 2s;
+    transform: rotate(180deg);
+}
+
+.product_4:hover
+{
+    transition-duration: 2s;
+    transform: translate(0px, -35px);
+}
+
